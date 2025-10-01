@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.split {
+  display: flex;
+  height: 100vh;
+}
+.side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.logo{
+  position:absolute;
+  top:70px;
+}
+h1{
+  position:absolute;
+  top:100px;
+}
+.firsttext,.signup{
+  color: gray;
+}
+.side.left {
+  background-color: white;
+}
+.side.right {
+  background-color: #121212;
+  color: white;
+}
+.eye-icon{
+  color:black;
+}
+.part {
+  width: 300px;
+  text-align: center;
+}
+form {
+  margin-top: 20px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.password1 {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(51, 235, 51);
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.socialmedia button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+.forgot2{
+ color:white;
+}
+.forgot22{
+ color:white;
+}
+.or{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: gray;
+}
+.or hr{
+  flex: 1;
+  border: none;
+  border-top: 1px solid gray;
+}
+.or span{
+  margin: 0 10px;
+}
+img{
+  width:50px;
+}
+.email,.password{
+  background-color: black;
+}
+.btn-black i{
+  color: gray;
+}
+.btn-white{
+  font-weight: bold;
+}
+.btn-white i{
+  color: gray;
+}
+.google-btn.btn-black{
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.apple-btn.btn-black{
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.eye-icon i{
+  color:gray;
+}
+.footer{
+  position:absolute;
+  bottom:100px;
+}
+.forgot,.forgot2{
+  position:absolute;
+  bottom:50px;
+  left:0px;
+}

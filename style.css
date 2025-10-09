@@ -153,3 +153,19 @@ img{
   bottom:50px;
   left:0px;
 }
+@media (max-width: 768px) {
+  .split {
+    flex-direction: column;  /* stack top to bottom */
+    height: auto;            /* allow scrolling */
+  }
+
+  .side {
+    width: 100%;             /* take full width */
+    height: auto;            /* adjust automatically */
+  }
+
+  .part {
+    width: 90%;              /* smaller width for content */
+    margin: 0 auto;          /* center content */
+  }
+}

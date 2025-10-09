@@ -155,17 +155,17 @@ img{
 }
 @media (max-width: 768px) {
   .split {
-    flex-direction: column;  /* stack top to bottom */
-    height: auto;            /* allow scrolling */
+    flex-direction: column;  
+    height: auto;           
   }
 
   .side {
-    width: 100%;             /* take full width */
-    height: auto;            /* adjust automatically */
+    width: 100%;            
+    height: auto;           
   }
 
   .part {
-    width: 90%;              /* smaller width for content */
-    margin: 0 auto;          /* center content */
+    width: 90%;              
+    margin: 0 auto;         
   }
 }

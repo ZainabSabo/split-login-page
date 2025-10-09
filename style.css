@@ -160,12 +160,30 @@ img{
   }
 
   .side {
-    width: 100%;            
-    height: auto;           
+    position: static; 
+    width: 100%;
+    height: auto;
+    padding: 30px 0; 
   }
 
   .part {
     width: 90%;              
     margin: 0 auto;         
   }
+
+  .logo,
+  h1,
+  .footer,
+  .forgot,
+  .forgot2 {
+    position: static; 
+    margin: 10px 0;
+  }
 }
+
+ 
+
+  
+
+  
+
